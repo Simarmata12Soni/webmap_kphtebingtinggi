@@ -10,6 +10,3 @@ const mapZoom = 12;
 const iconHeight = 30;
 const iconWidth = 30;
 
-//Icon for pohon muda and pohon dewasa
-const pohonDewasa =  'logo/pohon_dewasa.svg'
-const pohonMuda = 'logo/tree-5202.svg'
