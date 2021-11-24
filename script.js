@@ -268,7 +268,7 @@ var addMarkers = function(data) {
  */
 var loadData = function(loc) {
 
-  Papa.parse('https://raw.githubusercontent.com/MFikriFadhilah/Webmap_Mandah/main/data/KPH_Mandah.csv', {
+  Papa.parse('https://raw.githubusercontent.com/armyputera/webmap_kphtebingtinggi/main/data/Format_Web_Map_TT.csv', {
     header: true,
     download: true,
     complete: function(results) {
@@ -383,11 +383,11 @@ var initMap = function() {
   map.getPane('pane_PohonAdopsiMinastahura_4').style.zIndex = 1;
   map.getPane('pane_PohonAdopsiMinastahura_4').style['mix-blend-mode'] = 'normal';
 
-  layer_BatasKawasan = L.geoJson(json_BatasKawasan_Mandah,{
+  layer_BatasKawasan = L.geoJson(json_Batas_Kawasan_KPH_TT,{
     attribution: '',
     interactive: true,
-    dataVar: 'json_BatasKawasan_Mandah',
-    layerName: 'layer_BatasKawasan_Mandah',
+    dataVar: 'json_Batas_Kawasan_KPH_TT',
+    layerName: 'layer_Batas_Kawasan_KPH_TT',
     style: style_bataskawasan
   
     //pane: 'pane_PohonAdopsiMinastahura_4'
