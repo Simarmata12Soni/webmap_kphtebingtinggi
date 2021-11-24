@@ -4,7 +4,7 @@ const dataLocation = 'data/Format_Web_Map_TT.csv';
 
 // Map's initial center, and zoom level
 const mapCenter = [0.9293, 102.521];
-const mapZoom = 34;
+const mapZoom = 6;
 
 // Marker icon height and width
 const iconHeight = 30;
