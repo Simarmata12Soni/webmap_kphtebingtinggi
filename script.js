@@ -421,7 +421,7 @@ var initMap = function() {
   // Add data & GitHub links
   map.attributionControl.setPrefix('Download <a href="'
     + dataLocation + '" target="_blank">data</a> or \
-    view <a href="https://github.com/MFikriFadhilah/Webmap_Mandah" target="_blank">code on\
+    view <a href="https://github.com/armyputera/webmap_kphtebingtinggi" target="_blank">code on\
     GitHub</a> | created with <a href="http://leafletjs.com" title="A JS library\
     for interactive maps">Leaflet</a>');
 
