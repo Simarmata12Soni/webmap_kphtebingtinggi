@@ -419,7 +419,7 @@ function onEachFeature(feature, layer) {
   map.getPane('pane_PohonAdopsiMinastahura_4').style.zIndex = 1;
   map.getPane('pane_PohonAdopsiMinastahura_4').style['mix-blend-mode'] = 'normal';
 
-  layer_BatasKawasan = L.geoJson(json_Batas_Kawasan_KPH_TT,{
+  layer_BatasKawasan = L.geoJson(json_Batas_Kawasan_KPH_TT),{
     attribution: '',
     interactive: true,
     dataVar: 'json_Batas_Kawasan_KPH_TT',
